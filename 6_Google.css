@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #353535;
+    color: aliceblue;
+}
+
+
+.container{
+    margin-top: 20vh;
+}
+.google{
+    width: 30vw;
+    margin: auto;
+}
+.google img{
+    width: 30vw;
+}
+
+.field .spacebar{
+    width: 50vw;
+    font-size: 2vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 100px;
+    border-radius: 15px;
+    margin-top: 25px;
+    background-color: #353535;
+    border: 0.1px solid white;
+    color: rgb(247, 248, 249);
+    /* outline: none; */
+    
+}
+.field{
+    margin: auto;
+    width: 50vw;
+    position: relative;
+    /* background-color: #fff; */
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    left: 12px;
+    top: 40px;
+}
+
+.field .micro{
+    position: absolute;
+    height: 5vh;
+    top: 45%;
+    right: 70px;
+}
+.field .lens{
+    position: absolute;
+    height: 5vh;
+    top: 45%;
+    right: 20px;
+}

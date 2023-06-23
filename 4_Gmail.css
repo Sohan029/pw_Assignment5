@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+.cont1 img{
+    height: 35px;
+}
+.nav-bar{
+    padding: 10px 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 0px 0.5px 3px rgb(116, 115, 115) ;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    
+}
+.cont2 a{
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    font-size: medium;
+    font-weight:500;
+}
+
+.cont1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: x-large;
+    color: rgb(151, 150, 150);
+}
+.cont2{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    font-weight: 500;
+}
+.sign{
+    padding: 15px 30px;
+    border: 1px solid rgb(206, 195, 195);
+    background-color: #fff;
+    color: rgb(0, 132, 255);
+    font-weight: 520;
+    font-size: medium;
+    border-radius: 5px;
+}
+.account{
+    color: #fff;
+    background-color: rgb(0, 132, 255);
+    padding: 17px 30px;
+    border: 0px;
+    font-weight:600;
+    font-size: medium;
+    border-radius: 5px;
+}
+.descript{
+    /* background-color: #fbcaca; */
+    padding: 90px 100px;
+    
+}
+.descript span{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+.descript p{
+    margin-top: 25px;
+    line-height: 1.5;
+    font-size: 25px;
+    color: rgb(128, 125, 125);
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.gmail{
+    color: #fff;
+    background-color: rgb(0, 132, 255);
+    padding: 17px 30px;
+    border: 0px;
+    font-weight:600;
+    font-size: medium;
+    border-radius: 5px;
+}
+.work{
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    font-size: large;
+    font-weight:500;
+}
+.image img{
+    height: 700px;
+    width: 700px;
+    margin-top: 10px;
+
+}
+.matter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

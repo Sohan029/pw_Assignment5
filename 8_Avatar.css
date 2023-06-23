@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #434242;
+    padding: 20px;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.cont2{
+    display: flex;
+    margin: auto;
+    background-color: #806c6c;
+    margin-top: 250px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid rgb(94, 36, 24);
+}
+.img-1{
+    position:absolute;
+    left:2%;
+    z-index: 4;
+}
+.img-2{
+    position:absolute;
+    left:27%;
+    z-index: 3;
+}
+.img-3{
+    position:absolute;
+    left:52%;
+    z-index: 2;
+}
+.img-4{
+    position:absolute;
+    left:77%;
+    z-index: 1;
+}

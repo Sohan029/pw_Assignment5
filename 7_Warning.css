@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #fdd0d0;
+    width: 98%;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border-left:5px solid #f32424;
+    display: flex;
+    justify-content: space-between;
+    color: #ea1717;
+    align-items: center;
+    font-size: 20px;
+    position: fixed;
+    top: 5px;
+}
+.fa-triangle-exclamation{
+    font-size: 32px;
+}
+.fa-xmark{
+    font-size: 32px;
+}
